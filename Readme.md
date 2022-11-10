@@ -32,31 +32,50 @@ With the first string in each line being the type of settings that the rest of t
 Line in the config file can be of the following types and lines can appear in any order in the file.
 
 Window Program_Name W H 
-- This line declares that the SFML window must be constructed with width W and height H. Each value will be integers
+
+- This line declares that the SFML window must be constructed with width W and height H. Each value will be integers.
+
 	Program_Name	std::string Name for the program. No spaces in the name
+
 	Width	W		int
+
 	Height H		int
 
 Font F S R G B
-- This lines defines the font which is to be used to draw text for this program. The format of the line is as follows
+
+- This lines defines the font which is to be used to draw text for this program. The format of the line is as follows.
+
 	Font file 	F 		std::string No spaces
+
 	Font Size 	S 		int
+
 	RGB color	R G B 	int, int, int
 
 Rectangle N X Y SX SY R G B W H
 - Defines a rectangle shape with
+
 	Shape name 	N 			std::string
+
 	Initial position X Y 	float, float
+
 	Initial speed 	SX SY 	float, float
+
 	RGB color 	R G B		int, int, int
+
 	Size		W H 		float, float
 
 Circle N X Y SX SY R G B R
+
 - Defines a circle shape with:
+
 	Shape name	N			std::string
+
 	Initial position X Y 	float, float
+
 	Initial speed 	SX SY 	float, float
+
 	RGB color 	R G B		int, int, int
+
 	Radius		R			float
 
 

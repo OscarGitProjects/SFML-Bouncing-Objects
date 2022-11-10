@@ -71,24 +71,24 @@ int CRectangleShape::CollisionDetection(int iWindowWidth, int iWindowHeight)
 
 	if (m_fVec2fCurrentPosition.x < 0.0f)										// Check if collision to the left side of the window
 	{
-		m_fVec2fSpeed.x *= -1;
+		m_fVec2fSpeed.x *= -1.0f;
 		iNumberOfCollisions++;
 	}
 	else if ((m_fVec2fCurrentPosition.x + vec2fSize.x) > (float)iWindowWidth)	// Check if collision to the right side of the window
 	{
-		m_fVec2fSpeed.x *= -1;
+		m_fVec2fSpeed.x *= -1.0f;
 		iNumberOfCollisions++;
 	}
 
 
 	if (m_fVec2fCurrentPosition.y < 0.0f)										// Check if collision to the top of the window
 	{
-		m_fVec2fSpeed.y *= -1;
+		m_fVec2fSpeed.y *= -1.0f;
 		iNumberOfCollisions++;
 	}
 	else if ((m_fVec2fCurrentPosition.y + vec2fSize.y) > (float)iWindowHeight)	// Check if collision to bottom of the window
 	{
-		m_fVec2fSpeed.y *= -1;
+		m_fVec2fSpeed.y *= -1.0f;
 		iNumberOfCollisions++;
 	}
 

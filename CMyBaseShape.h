@@ -26,7 +26,7 @@ protected:
 
 	std::shared_ptr<sf::Text> m_pTextLabel = nullptr;	// Text label that show the name of the object in the center of the object
 
-	std::shared_ptr<sf::RectangleShape> m_pTextBackgroundShape = nullptr;	// En backgrund till textlabel
+	std::shared_ptr<sf::RectangleShape> m_pTextBackgroundShape = nullptr;	// A background rectangle shape to the textlabel
 
 	float m_fRadius = 0;								// Radius. Only used in CCircleShape objects
 	sf::Vector2f m_Vec2fSize = sf::Vector2f(0.f, 0.f);	// Width and Height. Only used in CRectangeShape objects

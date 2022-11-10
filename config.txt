@@ -1,0 +1,9 @@
+Window Program 1024 768
+Font Fonts/sansation.ttf 18 58 58 58
+Circle CGreen 100 100 -3.3 -2 0 255 0 50
+Circle CBlue  350 350  3 4 0 0 255 75
+Circle CPurple  300 300  -2 -1 255 0 255 75
+Rectangle RRed 300 300 1 1.5 255 0 0 150 125
+Rectangle RGrey 550 450 2 3 100 100 100 100 100
+Rectangle RTeal 10 100 -2 -2 0 255 255 100 100
+Circle CLightGreen 200 30 -2 2 150 255 150 65
